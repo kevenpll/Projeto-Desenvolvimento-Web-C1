@@ -1,4 +1,4 @@
-# 🌐 Portfólio - Keven Pereira Leite
+# 🌐 Portfólio web - Keven Pereira Leite
 
 Este é meu projeto pessoal desenvolvido em HTML e CSS, mostrando um pouco sobre mim, meus conhecimentos e meus projetos.
 
@@ -7,5 +7,3 @@ Este é meu projeto pessoal desenvolvido em HTML e CSS, mostrando um pouco sobre
 - `style.css` – Estilos
 - `script.js` – (opcional) JavaScript
 
-## 🧑‍💻 Autor
-**Keven Pereira Leite**
