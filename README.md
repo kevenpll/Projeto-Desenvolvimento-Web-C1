@@ -5,5 +5,5 @@ Este é meu projeto pessoal desenvolvido em HTML e CSS, mostrando um pouco sobre
 ## 📁 Estrutura
 - `index.html` – Página principal
 - `style.css` – Estilos
-- `script.js` – (opcional) JavaScript
+
 
