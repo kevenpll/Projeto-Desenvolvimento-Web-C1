@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Keven Pereira — Portfólio</title>
+  <meta name="description" content="Portfólio profissional de Keven Pereira — Analista de Sistemas e Desenvolvedor." />
+
+  <!-- Open Graph / SEO -->
+  <meta property="og:title" content="Keven Pereira — Portfólio" />
+  <meta property="og:description"
+    content="Portfólio profissional de Keven Pereira — Analista de Sistemas e Desenvolvedor." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/Foto Perfil Profissional.png" />
+
+  <!-- Fontes Google: Outfit para títulos e Inter para textos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/Foto Perfil Profissional.png">
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="nav" id="navbar">
+    <div class="container nav-row">
+      <a class="logo" href="#home" style="white-space: nowrap;">K<span class="accent">.</span>P</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-item active">Início</a>
+        <a href="#about" class="nav-item">Sobre</a>
+        <a href="#skills" class="nav-item">Habilidades</a>
+        <a href="#projects" class="nav-item">Projetos</a>
+        <a href="#education" class="nav-item">Formação</a>
+        <a href="#contact" class="nav-item">Contato</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="abrir menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <!-- Texto à esquerda -->
+        <div class="hero-info reveal">
+          <p class="greeting">Olá, bem-vindo! 👋</p>
+          <h1>Eu sou <span class="accent">Keven Pereira</span></h1>
+          <h2 class="typing-container">
+            Sou <span class="typing-effect"></span><span class="cursor">&nbsp;</span>
+          </h2>
+          <p class="lead">
+            Apaixonado por tecnologia, crio automações e soluções práticas para otimizar rotinas corporativas e
+            transformar problemas complexos em sistemas eficientes.
+          </p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#projects">Ver meus projetos</a>
+            <a class="btn btn-secondary" href="#contact">Fale comigo</a>
+          </div>
+
+          <!-- Caixa de links -->
+          <div class="link-box">
+            <a href="https://github.com/kevenpll" target="_blank" class="link-item" aria-label="Acessar GitHub"><i
+                class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/keven-pereira-leite" target="_blank" class="link-item"
+              aria-label="Acessar LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:keven.png@gmail.com" class="link-item" aria-label="Enviar e-mail"><i
+                class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Foto à direita -->
+        <div class="photo-wrap reveal fade-right">
+          <span class="ring-fast" aria-hidden="true"></span>
+          <img src="assets/Foto Perfil Profissional.png" alt="Keven" class="profile">
+        </div>
+      </div>
+
+      <div class="scroll-down" id="scrollIndicator">
+        <a href="#about" aria-label="Rolar para a seção Sobre"><i class="fas fa-chevron-down"></i></a>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="about section" id="about">
+      <div class="container contact-container reveal">
+        <h2 class="section-title">Sobre <span class="accent">Mim</span></h2>
+        <div class="about-grid">
+          <div class="about-content">
+            <p>Sou formado em Análise e Desenvolvimento de Sistemas e técnico em Eletrotécnica, com sólida experiência
+              em suporte técnico de TI, automação de processos e integração de sistemas. Tenho grande interesse em unir
+              tecnologia e eficiência operacional, criando soluções que otimizam o dia a dia das empresas.</p>
+            <p>Ao longo da minha trajetória, desenvolvi automações em Python e fluxos inteligentes capazes de reduzir
+              tarefas repetitivas, aumentar a produtividade e melhorar a comunicação entre diferentes áreas. Busco
+              constantemente aprimorar meus conhecimentos em desenvolvimento de software, bancos de dados e metodologias
+              ágeis, com foco em transformar problemas complexos em soluções práticas, escaláveis e funcionais.</p>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-item"><i class="fas fa-laptop-code"></i> <span>Desenvolvimento Full-Stack</span></div>
+            <div class="highlight-item"><i class="fab fa-python"></i> <span>Automações com Python</span></div>
+            <div class="highlight-item"><i class="fas fa-server"></i> <span>Manutenção de Infraestrutura</span></div>
+            <div class="highlight-item"><i class="fas fa-lightbulb"></i> <span>Resolução de Problemas</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="skills section" id="skills">
+      <div class="container contact-container">
+        <h2 class="section-title reveal">Minhas <span class="accent">Habilidades</span></h2>
+
+        <div class="skills-container">
+          <!-- Suporte Técnico -->
+          <div class="skills-category reveal fade-left">
+            <h3 class="skills-subtitle"><i class="fas fa-tools"></i> Suporte Técnico</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Atendimento ao Cliente</span>
+                  <span class="skill-pct">92%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="92%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Resolução de Problemas</span>
+                  <span class="skill-pct">89%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="89%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Sistemas Windows/Linux</span>
+                  <span class="skill-pct">88%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Redes e Conectividade</span>
+                  <span class="skill-pct">86%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="86%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Desenvolvimento -->
+          <div class="skills-category reveal fade-right">
+            <h3 class="skills-subtitle"><i class="fas fa-code"></i> Desenvolvimento</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-pct">95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Java</span>
+                  <span class="skill-pct">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML & CSS</span>
+                  <span class="skill-pct">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">SQL</span>
+                  <span class="skill-pct">81%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="81%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="projects section" id="projects">
+      <div class="container contact-container">
+        <h2 class="section-title reveal">Projetos <span class="accent">Desenvolvidos</span></h2>
+
+        <!-- Filtro de Projetos -->
+        <div class="project-filters reveal">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="python">Python</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+        </div>
+
+        <!-- Grade dos projetos -->
+        <div class="grid">
+          <article class="card reveal" data-category="python">
+            <div class="card-image" style="background: linear-gradient(135deg, #1e293b, #334155);"><i
+                class="fab fa-python" style="font-size: 3rem; color: #a78bfa;"></i></div>
+            <div class="card-body">
+              <h3>Sistema de Automatização de Vistoria</h3>
+              <p>Automação em Python que organiza planilhas e gera relatórios de vistoria diariamente.</p>
+              <div class="card-actions">
+                <a href="https://github.com/kevenpll?tab=repositories" target="_blank" class="btn-sm"><i
+                    class="fab fa-github"></i> Código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card reveal" data-category="python web">
+            <div class="card-image" style="background: linear-gradient(135deg, #1e293b, #334155);"><i
+                class="fas fa-server" style="font-size: 3rem; color: #a78bfa;"></i></div>
+            <div class="card-body">
+              <h3>Cadastro de Usuários com Flask</h3>
+              <p>Aplicação web em Python + Flask que permite criar, editar, listar e excluir dados com SQLite.</p>
+              <div class="card-actions">
+                <a href="https://github.com/kevenpll?tab=repositories" target="_blank" class="btn-sm"><i
+                    class="fab fa-github"></i> Código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card reveal" data-category="web">
+            <div class="card-image" style="background: linear-gradient(135deg, #1e293b, #334155);"><i
+                class="fas fa-laptop-code" style="font-size: 3rem; color: #a78bfa;"></i></div>
+            <div class="card-body">
+              <h3>Landing Page Corporativa</h3>
+              <p>Site moderno e responsivo, otimizado para conversão e integração com formulários.</p>
+              <div class="card-actions">
+                <a href="https://github.com/kevenpll?tab=repositories" target="_blank" class="btn-sm"><i
+                    class="fab fa-github"></i> Código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card reveal" data-category="web">
+            <div class="card-image" style="background: linear-gradient(135deg, #1e293b, #334155);"><i
+                class="fas fa-chart-pie" style="font-size: 3rem; color: #a78bfa;"></i></div>
+            <div class="card-body">
+              <h3>Sistema de Suporte Técnico</h3>
+              <p>Painel interativo com gráficos dinâmicos e filtros inteligentes para análise de dados.</p>
+              <div class="card-actions">
+                <a href="https://github.com/kevenpll?tab=repositories" target="_blank" class="btn-sm"><i
+                    class="fab fa-github"></i> Código</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formação e Certificações -->
+    <section class="education section" id="education">
+      <div class="container">
+        <h2 class="section-title reveal">Formação & <span class="accent">Certificações</span></h2>
+
+        <div class="education-grid">
+          <!-- Formação Acadêmica -->
+          <div class="edu-card reveal fade-left">
+            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
+            <p class="edu-institution">Faculdade FAESA</p>
+            <p class="edu-period"><i class="far fa-calendar-alt"></i> Concluído — 2025</p>
+            <p class="edu-desc">Desenvolvimento de software, banco de dados, automação e integração de sistemas.</p>
+          </div>
+
+          <div class="edu-card reveal">
+            <div class="edu-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Técnico em Eletrotécnica</h3>
+            <p class="edu-institution">EEEM Arnulpho Mattos</p>
+            <p class="edu-period"><i class="far fa-calendar-alt"></i> Concluído - 2020</p>
+            <p class="edu-desc">Sistemas elétricos e eletrônicos, automação industrial e manutenção de equipamentos.</p>
+          </div>
+
+          <!-- Certificações -->
+          <div class="edu-card reveal fade-right">
+            <div class="edu-icon"><i class="fas fa-certificate"></i></div>
+            <h3>Certificações</h3>
+            <ul class="cert-list">
+              <li>ITIL v4</li>
+              <li>AZ-900</li>
+              <li>Scrum Fundamentals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact section" id="contact">
+      <div class="container contact-container">
+        <h2 class="section-title reveal">Entre em <span class="accent">Contato</span></h2>
+        <p class="contact-subtitle reveal">Quer entrar em contato comigo ou tirar dúvidas? Me envie uma mensagem.
+          Respondo o mais rápido possível!</p>
+
+        <div class="contact-grid">
+          <!-- Infos de contato -->
+          <div class="contact-info reveal fade-left">
+            <h3>Informações de Contato</h3>
+            <p>Sinta-se à vontade para me mandar um email ou conectar-se comigo nas redes profissionais.</p>
+
+            <div class="info-items">
+              <a href="mailto:keven.png@gmail.com" class="info-item">
+                <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                <div>
+                  <h4>Email</h4>
+                  <span>keven.png@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/keven-pereira-leite" target="_blank" class="info-item">
+                <div class="info-icon"><i class="fab fa-linkedin-in"></i></div>
+                <div>
+                  <h4>LinkedIn</h4>
+                  <span>/keven-pereira-leite</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/kevenpll" target="_blank" class="info-item">
+                <div class="info-icon"><i class="fab fa-github"></i></div>
+                <div>
+                  <h4>GitHub</h4>
+                  <span>/kevenpll</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Formulário -->
+          <form id="contactForm" action="https://api.web3forms.com/submit" method="POST"
+            class="contact-form reveal fade-right">
+            <h3>Envie uma Mensagem</h3>
+
+            <!-- Web3Forms Access Key -->
+            <input type="hidden" name="access_key" value="b48cf57c-ba4d-4180-a2f8-cfe79040d7d5">
+            <input type="hidden" name="subject" value="Novo contato do portfólio — Keven">
+            <input type="checkbox" name="botcheck" style="display: none;">
+
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <div class="input-with-icon">
+                <i class="fas fa-user"></i>
+                <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <div class="input-with-icon">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <div class="input-with-icon align-top">
+                <i class="fas fa-comment-dots"></i>
+                <textarea id="message" name="message" rows="5" placeholder="Como posso ajudar?" required></textarea>
+              </div>
+            </div>
+
+            <button class="btn btn-primary send-btn" type="submit">
+              Enviar mensagem <i class="fas fa-paper-plane"></i>
+            </button>
+            <div id="formStatus" style="display: none; margin-top: 1rem; padding: 1rem; border-radius: 8px; font-weight: 500; text-align: center; font-size: 0.9rem;"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container foot-row">
+      <p>© <span id="year"></span> <span class="accent">Keven Pereira</span> — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+
+</body>
+
+</html>
