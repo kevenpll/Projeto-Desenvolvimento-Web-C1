@@ -545,6 +545,13 @@ h1, h2, h3, .logo {
   flex-grow: 1;
 }
 
+.card-actions {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: auto; /* Empurra as ações para a parte inferior do card */
+  flex-wrap: wrap;
+}
+
 .btn-sm {
   background: rgba(255, 255, 255, 0.08); /* Contraste melhor */
   color: var(--text);
@@ -560,8 +567,22 @@ h1, h2, h3, .logo {
 }
 
 .btn-sm:hover {
-  background: var(--accent);
-  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.btn-sm.primary {
+  background: linear-gradient(135deg, var(--accent), #7c3aed);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.btn-sm.primary:hover {
+  background: linear-gradient(135deg, #7c3aed, var(--accent));
+  box-shadow: 0 6px 15px rgba(139, 92, 246, 0.5);
+  transform: translateY(-2px);
   color: white;
 }
 
